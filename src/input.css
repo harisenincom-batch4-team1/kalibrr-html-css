@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navbar-container {
+    @apply sticky flex items-center justify-between flex-wrap w-[1280px] mx-auto bg-white py-8 px-20 mt-10 shadow-md rounded-2xl;
+  }
+}
