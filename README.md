@@ -1,3 +1,5 @@
-# kelompok1-fsd-html-css
+# Presentation Part 1 HTML CSS
 
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+Cara menjalankan project
+1. di terminal ketik `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+2. Open with live server
