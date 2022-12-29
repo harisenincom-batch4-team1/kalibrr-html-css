@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Kalibrr: Where Jobs Find You</title>
+  </head>
+  <body>
+    <div
+      class="bg-cover bg-center h-screen pt-10"
+      style="background-image: url(./src/assets/background-1.webp)"
+    >
+      <!-- Navbar -->
+      <nav class="navbar-container">
+        <a href="/">
+          <img src="./src/assets/logo.svg" alt="" />
+        </a>
+        <div class="block lg:hidden"></div>
+        <div class="w-96 flex justify-between items-center">
+          <a href="#" class="font-bold text-blue-400">Jobseeker</a>
+          <a href="#" class="text-black hover:text-blue-400 duration-300"
+            >Employer</a
+          >
+          <button
+            class="border-[1px] border-blue-600 text-blue-500 py-2 px-4 rounded-lg hover:bg-blue-600 duration-300 hover:text-white"
+          >
+            Sign Up
+          </button>
+          <button
+            class="border-[1px] bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-white border-blue-600 duration-300 hover:text-blue-600"
+          >
+            Sign In
+          </button>
+        </div>
+      </nav>
+
+      <!-- Section 1 (Title) -->
+      <div class="container mx-auto flex-col space-y-7 mt-20 pl-5 font-main">
+        <h1 class="text-white font-bold text-5xl">Your dream job is</h1>
+        <h1 class="text-white font-bold text-5xl">just a click away</h1>
+        <p class="text-white text-xl">
+          The simplest way to career opportunities starts here
+        </p>
+        <div class="h-10">
+          <select class="h-full">
+            <option>Job Title</option>
+          </select>
+          <input class="h-full" placeholder="Search for a job title" />
+          <button class="h-full bg-blue-500 px-5">l</button>
+        </div>
+        <div class="flex items-center space-x-4">
+          <p class="text-white text-xs">Popular Search</p>
+          <button class="bg-white py-2 px-4 text-xs">Software IT</button>
+          <button class="bg-white py-2 px-4 text-xs">Software IT</button>
+          <button class="bg-white py-2 px-4 text-xs">Software IT</button>
+          <button class="bg-white py-2 px-4 text-xs">Software IT</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <!-- Work with the most innovative companies around the world -->
+    <div
+      class="container mx-auto bg-white -mt-10 py-10 min-h-[300px] rounded-3xl overflow-hidden shadow-xl"
+    >
+      <h1 class="text-center">
+        Work with the most innovative companies around the world
+      </h1>
+    </div>
+  </body>
+</html>
