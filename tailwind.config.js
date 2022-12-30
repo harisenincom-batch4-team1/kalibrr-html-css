@@ -7,5 +7,7 @@ module.exports = {
       'main': ['DM Sans']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ]
 }
