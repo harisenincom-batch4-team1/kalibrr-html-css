@@ -6,7 +6,7 @@
 
 @layer components {
   .navbar-container {
-    @apply font-main sticky flex items-center justify-between flex-wrap max-w-[1280px] mx-auto bg-white py-4 md:py-8 px-5 md:px-20 shadow-md md:rounded-2xl;
+    @apply font-main sticky flex items-center justify-between flex-wrap container mx-auto bg-white py-4 md:py-8 px-5 md:px-20 shadow-md md:rounded-2xl;
   }
 
   /* For Webkit-based browsers (Chrome, Safari and Opera) */

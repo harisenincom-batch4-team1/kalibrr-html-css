@@ -989,11 +989,44 @@ input:checked + .toggle-bg{
 }
 
 .navbar-container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .navbar-container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar-container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .navbar-container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .navbar-container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .navbar-container{
+    max-width: 1536px;
+  }
+}
+
+.navbar-container{
   position: sticky;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  max-width: 1280px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
