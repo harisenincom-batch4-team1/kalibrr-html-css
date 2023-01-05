@@ -5,8 +5,6 @@ Job Portal untuk para manusia yang ingin cari kerja dengan mudah. Projek ini ter
 
 ## Preview
 
-Link projek [kalibrr-clone.com](https://glistening-sherbet-013453.netlify.app/)
-
 ![Preview](./public/project-preview.png)
 
 
