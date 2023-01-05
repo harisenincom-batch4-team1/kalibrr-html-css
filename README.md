@@ -5,7 +5,7 @@ Job Portal untuk para manusia yang ingin cari kerja dengan mudah. Projek ini ter
 
 ## Preview
 
-Link projek [kalibrr-clone.com](https://kelompok1-part1-fsd-hsb.vercel.app/)
+Link projek [kalibrr-clone.com](https://glistening-sherbet-013453.netlify.app/)
 
 ![Preview](./public/project-preview.png)
 
