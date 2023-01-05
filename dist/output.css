@@ -1273,6 +1273,14 @@ input:checked + .toggle-bg{
   margin-bottom: 2.5rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -1413,6 +1421,14 @@ input:checked + .toggle-bg{
   height: 1.5rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .h-9{
   height: 2.25rem;
 }
@@ -1445,6 +1461,14 @@ input:checked + .toggle-bg{
   width: 1.25rem;
 }
 
+.w-6{
+  width: 1.5rem;
+}
+
+.w-32{
+  width: 8rem;
+}
+
 .w-64{
   width: 16rem;
 }
@@ -1457,12 +1481,17 @@ input:checked + .toggle-bg{
   max-width: 24rem;
 }
 
-.flex-1{
-  flex: 1 1 0%;
+.max-w-fit{
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .flex-auto{
   flex: 1 1 auto;
+}
+
+.flex-1{
+  flex: 1 1 0%;
 }
 
 .flex-shrink-0{
@@ -1829,6 +1858,10 @@ input:checked + .toggle-bg{
 
 .grid-flow-col-dense{
   grid-auto-flow: column dense;
+}
+
+.grid-cols-6{
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-3{
@@ -2564,6 +2597,10 @@ input:checked + .toggle-bg{
           box-decoration-break: clone;
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
 .bg-fixed{
   background-attachment: fixed;
 }
@@ -2708,6 +2745,11 @@ input:checked + .toggle-bg{
   padding-right: 0.5rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -2729,6 +2771,10 @@ input:checked + .toggle-bg{
 
 .pt-2{
   padding-top: 0.5rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
 }
 
 .text-left{
@@ -2827,10 +2873,6 @@ input:checked + .toggle-bg{
 
 .font-medium{
   font-weight: 500;
-}
-
-.font-normal{
-  font-weight: 400;
 }
 
 .font-semibold{
@@ -2945,6 +2987,16 @@ input:checked + .toggle-bg{
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-blue-700{
+  --tw-text-opacity: 1;
+  color: rgb(26 86 219 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-500{
@@ -3402,6 +3454,12 @@ input:checked + .toggle-bg{
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.hover\:shadow-2xl:hover{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .before\:hover\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
@@ -3631,8 +3689,8 @@ input:checked + .toggle-bg{
 }
 
 @media (min-width: 768px){
-  .md\:-mt-16{
-    margin-top: -4rem;
+  .md\:-mt-10{
+    margin-top: -2.5rem;
   }
 
   .md\:flex{
